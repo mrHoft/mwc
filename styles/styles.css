@@ -1,0 +1,91 @@
+@import url('./frame.css');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light dark;
+
+  --color-scheme: 0;
+  --color00: #0e1621;
+  --color10: #142533;
+  --color20: #182b44;
+  --color30: #1c3e5a;
+  --color40: #205171;
+  --color50: #386989;
+  --color60: #5081a1;
+  --color100: #fff;
+
+  --link-color: #4c9ce2;
+  --link-color-hover: #386989;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-scheme: 1;
+    --color00: #fff;
+    --color10: #f2ede1;
+    --color20: #e5dacb;
+    --color30: #cdc2b3;
+    --color40: #b5aa9b;
+    --color50: #9d9283;
+    --color60: #857a6b;
+    --color100: #000;
+
+    --link-color: #386989;
+    --link-color-hover: #4c9ce2;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  color: var(--color100);
+  background-color: var(--color00);
+}
+
+#__nuxt {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+main {
+  margin: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.25rem 0;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition-duration: 250ms;
+}
+a:hover {
+  color: var(--link-color-hover);
+}
+
+.align_center {
+  display: flex;
+  justify-content: center;
+}
