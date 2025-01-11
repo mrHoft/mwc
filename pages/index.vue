@@ -37,7 +37,6 @@ const items = characters.value.data
       ],
     ),
   );
-console.log(characters.value.data[1]);
 </script>
 
 <style module="page">
@@ -69,7 +68,7 @@ console.log(characters.value.data[1]);
   position: absolute;
   content: '';
   display: block;
-  background-image: url('./bg.webp');
+  background-image: url('/bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
   filter: invert(var(--color-scheme));

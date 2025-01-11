@@ -29,7 +29,7 @@
 .logo {
   height: 2.5rem;
   aspect-ratio: 1.875;
-  background-image: url('./ship.webp');
+  background-image: url('/ship.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -13,7 +13,7 @@ body:before {
   content: '';
   position: absolute;
   display: block;
-  background-image: url('./service_bay.webp');
+  background-image: url('/service_bay.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #234;

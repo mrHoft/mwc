@@ -12,7 +12,7 @@ Educational project. Inspirated by "Monkey Wrench" animation serial.
 
 This is Deno monorepo with exclded strapi workspace (cause it is default with local settings and database).
 
-[gh-pages](https://mrhoft.github.io/mwc/) example it is generated SPA, that was build by Nuxt using Nitro to make static pages from Strapi resources.
+[Eexample](https://mwc-eta.vercel.app/) is generated SPA, that was build by Nuxt using Nitro to make static pages from Strapi resources.
 
 ### Stack:
 - Vue 3 (Composition API)
